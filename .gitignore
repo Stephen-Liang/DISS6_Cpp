@@ -2,7 +2,7 @@ Debug/
 logs/
 x64/
 .vs/
-DISS6C.sln/
-DISS6C.vcxproj/
-DISS6C.vcxproj.filters/
+DISS6C.sln
+DISS6C.vcxproj
+DISS6C.vcxproj.filters
 DISS6C.vcxproj.user
