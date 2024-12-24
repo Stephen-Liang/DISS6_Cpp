@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\GPCSCommon">
+      <UniqueIdentifier>{ff006f5d-5a8b-4a0d-b102-23fd6f7c76ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GPCSCommon">
+      <UniqueIdentifier>{6b7b16b2-bd34-4827-8ab3-c537321ee2d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DISS6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DISS6Control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DISS6BasicFunc.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DISS6ControlTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DISS6ControlErrors.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanJob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanParamState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBacks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HAL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingQueue.h">
+      <Filter>头文件\GPCSCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Diss6main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DISS6NativeMethods.hpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanJob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DISS6Control64.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\DISS6Control64.dll">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
